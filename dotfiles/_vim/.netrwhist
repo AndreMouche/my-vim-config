@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/hz/.vim'
+let g:netrw_dirhist_2='/home/hz/workspace/nepo-20130427/nepo'
+let g:netrw_dirhist_3='/home/hz/.vim'
