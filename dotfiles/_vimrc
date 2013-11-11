@@ -4,7 +4,7 @@
 " ==========================================================
 " Pep8 - http://pypi.python.org/pypi/pep8
 " Pyflakes
-" Ack
+" Ack sdffs
 " nose, django-nose
 
 " ==========================================================
@@ -92,6 +92,7 @@ nmap <silent><Leader>tm <Esc>:Pytest method<CR>
 nmap <silent><Leader>tn <Esc>:Pytest next<CR>
 nmap <silent><Leader>tp <Esc>:Pytest previous<CR>
 nmap <silent><Leader>te <Esc>:Pytest error<CR>
+
 
 " Run django tests
 map <leader>dt :set makeprg=python\ manage.py\ test\|:call MakeGreen()<CR>
@@ -290,7 +291,7 @@ autocmd FileType html,xhtml,xml,css setlocal expandtab shiftwidth=2 tabstop=2 so
 "au FileType coffee setlocal expandtab shiftwidth=4 tabstop=8 softtabstop=4 smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class,with
 "u BufRead *.py set efm=%C\ %.%#,%A\ \ File\ \"%f\"\\,\ line\ %l%.%#,%Z%[%^\ ]%\\@=%m
 " Don't let pyflakes use the quickfix window
-let g:pyflakes_use_quickfix = 0
+" let g:pyflakes_use_quickfix = 0
 
 
 
